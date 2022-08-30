@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+
+
+<body>
+  <!-- NAVBAR -->
+  <div class="card">
+ <nav class="navbar navbar-expand-md navbar-light">
+  <div class="container">
+  <a href="#" class="navbar-brand"><img src="images/logo.svg" alt="" srcset=""></a>
+   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu"><span class="navbar-toggler-icon"></span></button>
+   <div class="collapse navbar-collapse" id="navmenu">
+     <ul class="navbar-nav">
+      <li class="nav-item dropdown"><a href="#" data-bs-toggle="dropdown" class="nav-link dropdown-toggle" id="drop">Features</a>
+      <div class="dropdown-menu bg-light features" aria-labelledby="drop">
+        <a href="#" class="dropdown-item"><img src="images/icon-todo.svg" alt="" srcset=""> Todo List</a>
+        <a href="#" class="dropdown-item"><img src="images/icon-calendar.svg" alt="" srcset=""> Calendar</a>
+        <a href="#" class="dropdown-item"><img src="images/icon-reminders.svg" alt="" srcset=""> Reminder</a>
+        <a href="#" class="dropdown-item"><img src="images/icon-planning.svg" alt="" srcset=""> Planning</a>
+      </div>
+      </li>
+       <li class="nav-item dropdown"><a href="#" data-bs-toggle="dropdown" class="nav-link dropdown-toggle" id="down">Company </a>
+      <div class="dropdown-menu bg-light" aria-labelledby="down">
+        <a href="#" class="dropdown-item">History</a>
+        <a href="#" class="dropdown-item">Our Team</a>
+        <a href="#" class="dropdown-item">Blog</a>
+      </div>
+      </li>
+       <li class="nav-item"><a href="#" class="nav-link">Careers</a></li>
+       <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+     </ul>
+     <ul class="navbar-nav ms-auto">
+       <li class="nav-item"><a href="#" class="nav-link">Login</a></li>
+       <li class="nav-item"><a href="#" class="nav-link"><button class="reg">Register</button></a></li>
+     </ul>
+   </div>
+  </div> 
+  </nav>
+<!-- content -->
+<section  class="flex">
+ <div class="content">
+  <h1>Make <br> remote work</h1>
+
+  <p>Get your team in sync, no matter your location. <br> Streamline processes, 
+  create team rituals, <br> and watch productivity soar.</p>
+
+  <button class="btn bg-dark btn-dark btn-lg">Learn more</button><br>
+  <img class="dark" src="images/client-databiz.svg" alt=""> 
+  <img class="dark" src="images/client-audiophile.svg" alt="" srcset=""> 
+  <img class="dark" src="images/client-meet.svg" alt="" srcset="">
+  <img class="dark" src="images/client-maker.svg" alt="" srcset="">
+ </div>
+
+ <div class="my-img">
+  <img class="img" src="images/image-hero-desktop.png" alt="" srcset="">
+ </div> 
+
+</section>
+</div>
+
+<div class="attribute"> Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+  Coded by <a href="#">Doncharsy</a>.
+</div>
+
+<script src="jquery.js"></script>
+<script src="script.js"></script>
+
+<script src="js/bootstrap.js"></script>
+
+</body>
+</html>
